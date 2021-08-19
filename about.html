@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+      <title>Usha Health Care</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.css">
+ </head>
+  <body>
+      <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/logo25.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-arrow-left" onclick="hideMenu()"></i>
+               <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT US</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+      </section>
+
+<!---------------- about us content -------------->
+
+<section class="about-us">
+
+      <div class="row">
+          <div class="about-col">
+             <h1>Who are We?</h1>
+             <p>We are a nursing service agency ready to provide you satisfactory services at your door step. 
+              This is a service offered to patients suffering from chronic illness, disabled, senile and whose 
+              mobility is restricted within four walls. Our nursing service is to provide attenders to those people
+               who are hospitalized and who need their treatment at home along with their family members. We offer 
+               for 8 hours Day and Night shifts 24*7 and monthly basis nurse/female attenders are also available.
+               Any other specific requirements are also provided as per the patient.<br> We also provide Baby Care 
+               and Old Age Home service facilities.</p>
+               <a href="services.html" class="hero-button red-button">EXPLORE NOW</a>
+          </div>
+          <div class="about-col">
+              <img src="images/about.jpg">    
+          </div>
+      </div> 
+
+</section>
+
+<!---------------------Footer------------------------->
+
+<section class="footer">
+       <!-- <h4>About Us</h4> -->
+       <p>We are Usha Health Care. Always at your Doorstep to Serve You!</p>
+        <div class="icons">
+          <a href="https://m.facebook.com/ushahealthcare9/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://instagram.com/ushahealthservices" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ushahealthservices/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Copyright ©2021 All rights Reserved</p>
+        <p>Designed with <i class="fas fa-heart"></i> by Aashish Vardhan</p>
+</section>
+
+
+  <!----------Java Script foe Toggling Menu in Mobile-------------> 
+   <script>
+ 
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+           navLinks.style.right = "0";
+      }
+      function hideMenu(){
+           navLinks.style.right = "-200px";
+      }
+
+   </script>
+   
+  </body>
+</html>

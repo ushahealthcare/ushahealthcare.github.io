@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+      <title>Usha Health Care</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+ </head>
+  <body>
+      <section class="sub-header4">
+        <nav>
+           <a href="index.html"><img src="images/logo25.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-arrow-left" onclick="hideMenu()"></i>
+               <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT US</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+      </section>
+
+<!---------------- Contact us -------------->
+
+<section class="location">
+     
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54287.2349292802!2d83.39009995641291!3d17.777318704784257!2m3!1
+  f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b02eddcce6d%3A0x2a9d8360f5f74cb2!2sGIMSR%20Medical%20College!5e0!3m2!1sen!2sin
+  !4v1626539776427!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+     <div class="row">
+         <div class="contact-col">
+            <div>
+               <i class="fas fa-home"></i>
+               <span>
+                   <h5>Chenna Rushikonda 1st Lane,<br>Trends flora Apartments,<br>Flat No. 103, Beside GITAM Medical College,<br>Visakhapatnam, Andhra Pradesh.</h5>
+                   <p>Monday to Friday  10AM to 4PM</p>
+               </span>
+            </div>
+            <div>
+              <i class="fas fa-phone"></i>
+              <span>
+                  <h5>+91 9849603566</h5>
+              </span>
+           </div>
+           <div>
+            <i class="fas fa-envelope"></i>
+            <span>
+                <h5>ushahealthcare9@gmail.com</h5>
+                <p>E-mail us your Query.</p>
+            </span>
+         </div>
+         </div>
+         <div class="contact-col">
+
+            <form action="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail ID" required>
+                <input type="text" name="servicetype" placeholder="Type of Service Required" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-button red-button">Send Message</button>
+            </form> 
+
+         </div>
+              
+     </div>
+
+</section>
+
+         <div class="developer">
+            <h5>Developer Contact</h5><br>
+            <p1>Aashish Vardhan</p1><br>
+            <i class="fas fa-envelope dev"></i>
+                <h7>aashishvardhanp@gmail.com</h7>
+                <p>E-mail to order yourself one.</p>
+         </div>
+
+
+<!---------------------Footer------------------------->
+
+<section class="footer">
+       <!-- <h4>About Us</h4> -->
+       <p>We are Usha Health Care. Always at your Doorstep to Serve You!</p>
+        <div class="icons">
+          <a href="https://m.facebook.com/ushahealthcare9/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://instagram.com/ushahealthservices" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ushahealthservices/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Copyright ©2021 All rights Reserved</p>
+        <p>Designed with <i class="fas fa-heart"></i> by Aashish Vardhan</p>
+</section>
+
+
+  <!----------Java Script foe Toggling Menu in Mobile-------------> 
+   <script>
+ 
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+           navLinks.style.right = "0";
+      }
+      function hideMenu(){
+           navLinks.style.right = "-200px";
+      }
+
+   </script>
+   
+  </body>
+</html>
